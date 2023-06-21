@@ -46,13 +46,10 @@ export default function Terms() {
           </Typography>
 
           <Box sx={{textAlign: 'left', width: '45vw', padding: '1rem'}}>
-            {terms.map((text, index) => {
-                return (
-                    <Typography key={index} sx={{ color: 'text.secondary', marginBottom: '0.75rem' }}>
-                        {index+1}.{"\xa0\xa0"}{text}
-                    </Typography>
-                )
-            })}
+            {terms.map((text, index) => 
+              <Typography key={index} sx={{ color: 'text.secondary', marginBottom: '0.75rem' }}>
+                  {index+1}.{"\xa0\xa0"}{text}
+              </Typography>)}
           </Box>          
 
           <Button to="/" size="large" variant="contained" component={RouterLink}>
