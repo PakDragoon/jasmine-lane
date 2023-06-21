@@ -6,12 +6,12 @@ import palette from '../theme/paletteNew';
 export const colorPresets = [
   // DEFAULT
   {
-    name: 'default',
+    name: 'LUXURIOUS GARDEN',
     ...palette.light.primary,
   },
   // PURPLE
   {
-    name: 'purple',
+    name: 'CLUB HOUSE',
     lighter: '#EBD6FD',
     light: '#B985F4',
     main: '#7635dc',
@@ -21,7 +21,7 @@ export const colorPresets = [
   },
   // CYAN
   {
-    name: 'cyan',
+    name: 'ADULT POOLS',
     lighter: '#D1FFFC',
     light: '#76F2FF',
     main: '#1CCAFF',
@@ -31,7 +31,7 @@ export const colorPresets = [
   },
   // BLUE
   {
-    name: 'blue',
+    name: 'STEAM & SAUNA',
     lighter: '#D1E9FC',
     light: '#76B0F1',
     main: '#405e51',
@@ -41,7 +41,7 @@ export const colorPresets = [
   },
   // ORANGE
   {
-    name: 'orange',
+    name: 'INDOOR & OUTDOOR GYMS',
     lighter: '#FEF4D4',
     light: '#FED680',
     main: '#fda92d',
@@ -51,7 +51,7 @@ export const colorPresets = [
   },
   // RED
   {
-    name: 'red',
+    name: 'MULTIPURPOSE COURT',
     lighter: '#FFE3D5',
     light: '#FFC1AC',
     main: '#FF3030',
