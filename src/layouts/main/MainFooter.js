@@ -28,7 +28,7 @@ const LINKS = [
     headline: 'Contact',
     children: [
       { name: 'info@JasmineLane.com', href: '#' },
-      { name: 'block address city, country', href: '#' },
+      { name: 'ABC Street Dubai, UAE', href: '#' },
     ],
   },
 ];
@@ -55,7 +55,7 @@ export default function MainFooter() {
           </Grid>
           <Grid item xs={8} md={3}>
             <Typography variant="body2" sx={{ pr: { md: 5 } }}>
-              Jasmine Lane provides services like data analysis, role upgrade, graph reperentation and much more.
+              Jasmine Lane is a luxurious residential project located in the prestigious Jumeirah Golf Estates in Dubai.
             </Typography>
 
             <Stack

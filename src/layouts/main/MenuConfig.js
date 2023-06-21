@@ -20,7 +20,7 @@ const menuConfig = [
     icon: <Iconify icon={'eva:file-fill'} {...ICON_SIZE} />,
     children: [
       {
-        subheader: 'Auction',
+        subheader: 'Others',
         items: [
           { title: 'About Us', path: 'about-us' },
           { title: 'Contact Us', path: 'contact-us' },
@@ -30,15 +30,15 @@ const menuConfig = [
       {
         subheader: 'Authentication',
         items: [
-          { title: 'Login', path: 'home' },
-          { title: 'Register', path: 'home' },
+          { title: 'Login', path: '/login' },
+          { title: 'Register', path: '/register' },
         ],
       },
       {
         subheader: 'Error',
         items: [
-          { title: 'Page 404', path: 'home' },
-          { title: 'Page 500', path: 'home' },
+          { title: 'Page 404', path: '/404' },
+          { title: 'Page 500', path: '/500' },
         ],
       },
       {

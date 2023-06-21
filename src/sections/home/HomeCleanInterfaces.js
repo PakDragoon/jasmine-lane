@@ -9,8 +9,11 @@ import { MotionViewport, varFade } from '../../components/animateNew';
 // ----------------------------------------------------------------------
 
 const IMG = [...Array(10)].map(
-  (_, index) => `https://minimal-assets-api.vercel.app/assets/images/home/clean-${index + 1}.png`
+  (_, index) => `/static/collage/${index + 1}.png`
 );
+// const IMG = [...Array(10)].map(
+//   (_, index) => `https://minimal-assets-api.vercel.app/assets/images/home/clean-${index + 1}.png`
+// );
 
 const RootStyle = styled('div')(({ theme }) => ({
   paddingTop: theme.spacing(15),
@@ -51,8 +54,8 @@ export default function HomeCleanInterfaces() {
               paragraph
               sx={{
                 ...(!isLight && {
-                  textShadow: (theme) => `4px 4px 16px ${alpha(theme.palette.grey[800], 0.48)}`,
-                }),
+                  textShadow: (theme) => `8px 8px 24px ${alpha(theme.palette.grey[800], 0.48)}`,
+                }), color: '#99edc3'
               }}
             >
               Beautiful, modern and clean place to be cherish.
@@ -78,7 +81,7 @@ export default function HomeCleanInterfaces() {
                 disabledEffect
                 visibleByDefault
                 alt={`clean-${index + 1}`}
-                src={`https://minimal-assets-api.vercel.app/assets/images/home/clean-${index + 1}.png`}
+                src={`/static/collage/${index + 1}.png`}
               />
             </Box>
           ))}

@@ -15,9 +15,9 @@ SocialsButton.propTypes = {
 };
 
 export default function SocialsButton({ initialColor = false, simple = true, links = {
-  facebook: 'https://www.facebook.com/reownlogics', 
-  instagram: 'https://instagram.com/reownlogics?igshid=YmMyMTA2M2Y=',
-  linkedin: 'https://www.linkedin.com/company/reownlogics/mycompany/'
+  facebook: 'https://www.facebook.com/', 
+  instagram: 'https://instagram.com/',
+  linkedin: 'https://www.linkedin.com/'
 }, sx, ...other }) {
   const SOCIALS = [
     {
